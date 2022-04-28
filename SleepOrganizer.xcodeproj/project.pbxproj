@@ -17,6 +17,10 @@
 		90BA3B29281922260003977D /* SleepOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B28281922260003977D /* SleepOrganizerTests.swift */; };
 		90BA3B33281922260003977D /* SleepOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B32281922260003977D /* SleepOrganizerUITests.swift */; };
 		90BA3B35281922260003977D /* SleepOrganizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B34281922260003977D /* SleepOrganizerUITestsLaunchTests.swift */; };
+		90BA3B49281A73760003977D /* SleepRecordCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B48281A73760003977D /* SleepRecordCollectionView.swift */; };
+		90BA3B4B281A74BF0003977D /* SleepRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B4A281A74BF0003977D /* SleepRecordViewController.swift */; };
+		90BA3B4D281A7F6D0003977D /* sleepRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B4C281A7F6D0003977D /* sleepRecord.swift */; };
+		90BA3B4F281ABB080003977D /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA3B4E281ABB080003977D /* AddRecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		90BA3B2E281922260003977D /* SleepOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BA3B32281922260003977D /* SleepOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOrganizerUITests.swift; sourceTree = "<group>"; };
 		90BA3B34281922260003977D /* SleepOrganizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOrganizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90BA3B48281A73760003977D /* SleepRecordCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecordCollectionView.swift; sourceTree = "<group>"; };
+		90BA3B4A281A74BF0003977D /* SleepRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecordViewController.swift; sourceTree = "<group>"; };
+		90BA3B4C281A7F6D0003977D /* sleepRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepRecord.swift; sourceTree = "<group>"; };
+		90BA3B4E281ABB080003977D /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,18 @@
 		90BA3B0D281922250003977D /* SleepOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				90BA3B48281A73760003977D /* SleepRecordCollectionView.swift */,
+				90BA3B4A281A74BF0003977D /* SleepRecordViewController.swift */,
 				90BA3B0E281922250003977D /* AppDelegate.swift */,
 				90BA3B10281922250003977D /* SceneDelegate.swift */,
 				90BA3B12281922250003977D /* ViewController.swift */,
 				90BA3B14281922250003977D /* Main.storyboard */,
+				90BA3B4E281ABB080003977D /* AddRecordViewController.swift */,
 				90BA3B1A281922260003977D /* Assets.xcassets */,
 				90BA3B1C281922260003977D /* LaunchScreen.storyboard */,
 				90BA3B1F281922260003977D /* Info.plist */,
 				90BA3B17281922250003977D /* SleepOrganizer.xcdatamodeld */,
+				90BA3B4C281A7F6D0003977D /* sleepRecord.swift */,
 			);
 			path = SleepOrganizer;
 			sourceTree = "<group>";
@@ -264,7 +276,11 @@
 				90BA3B13281922250003977D /* ViewController.swift in Sources */,
 				90BA3B19281922250003977D /* SleepOrganizer.xcdatamodeld in Sources */,
 				90BA3B0F281922250003977D /* AppDelegate.swift in Sources */,
+				90BA3B4D281A7F6D0003977D /* sleepRecord.swift in Sources */,
 				90BA3B11281922250003977D /* SceneDelegate.swift in Sources */,
+				90BA3B49281A73760003977D /* SleepRecordCollectionView.swift in Sources */,
+				90BA3B4B281A74BF0003977D /* SleepRecordViewController.swift in Sources */,
+				90BA3B4F281ABB080003977D /* AddRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
